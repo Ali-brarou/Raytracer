@@ -2,7 +2,9 @@
 raytracer in c with the help of 'Raytracing in 1 weekend' book with multithreading.
 
 To build : 
-$mkdir bin 
+
+$mkdir bin .obj 
+
 $make
 
 After changing the config.h file make sure to "make clean" and "make".

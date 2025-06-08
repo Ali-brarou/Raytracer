@@ -1,15 +1,11 @@
-# project name (generate executable with this name)
 TARGET   = raytracing
 
 CC       = gcc
-# compiling flags here
 CFLAGS   = -Wall -Wextra -O3 -Ithird_party/libattopng
 
 LINKER   = gcc
-# linking flags here
-LFLAGS   = -Wall -Wextra -lraylib -lm
+LFLAGS   = -lm -O3
 
-# change these to proper directories where each file should be
 SRCDIR   = src
 OBJDIR   = .obj
 BINDIR   = bin
